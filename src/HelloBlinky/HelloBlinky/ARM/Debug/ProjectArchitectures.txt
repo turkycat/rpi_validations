@@ -1,0 +1,1 @@
+c:\source\HelloBlinky\HelloBlinky\HelloBlinky.vcxproj;arm

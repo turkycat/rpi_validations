@@ -1,0 +1,1 @@
+C:\source\RPi_Validations\OneNoteCloudServices\OneNoteCloudServices\OneNoteCloudServices.vcxproj;arm

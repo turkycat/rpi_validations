@@ -1,0 +1,1 @@
+C:\source\RPi_Validations\WeatherStation\WeatherStation\WeatherStation.vcxproj;x86
