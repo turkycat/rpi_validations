@@ -1,1 +1,0 @@
-C:\source\RPi_Validations\MyServoProject\MyServoProject\MyServoProject.vcxproj;x86

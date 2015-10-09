@@ -2,12 +2,15 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Package Dependencies">
-      <UniqueIdentifier>663ff48d-add8-4c5d-8930-19cc940b898b</UniqueIdentifier>
+      <UniqueIdentifier>8a83ee66-5cb0-4c55-bb04-b6890646fde1</UniqueIdentifier>
       <Extensions>pfx;appxmanifest;config</Extensions>
     </Filter>
     <Filter Include="Package Dependencies\Assets">
-      <UniqueIdentifier>087fb4fd-8265-41aa-84c7-2f7945d01724</UniqueIdentifier>
+      <UniqueIdentifier>637611e5-67bc-412f-9a12-f85e61754e63</UniqueIdentifier>
       <Extensions>png</Extensions>
+    </Filter>
+    <Filter Include="Package Dependencies\Include">
+      <UniqueIdentifier>0f4a2eca-0892-4d74-b551-10df6fc29bc4</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -15,6 +18,14 @@
       <Filter>Package Dependencies</Filter>
     </ClCompile>
     <ClCompile Include="MyServoProject.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Package Dependencies\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="PinNumbers.h">
+      <Filter>Package Dependencies\Include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png">

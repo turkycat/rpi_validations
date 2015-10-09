@@ -8,7 +8,7 @@
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
   <Identity Name="MyServoProject-uwp" Publisher="CN=jessefr" Version="1.0.0.0" ProcessorArchitecture="arm" />
-  <mp:PhoneIdentity PhoneProductId="b0fb8d19-b6a8-459c-8b3f-b5c9a0fe654f" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <mp:PhoneIdentity PhoneProductId="dc021608-5152-411a-9705-ceb038de62ef" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>MyServoProject</DisplayName>
     <PublisherDisplayName>jessefr</PublisherDisplayName>
@@ -16,7 +16,7 @@
   </Properties>
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.10240.0" MaxVersionTested="10.0.10240.0" />
-    <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.23019.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
+    <PackageDependency Name="Microsoft.VCLibs.140.00.Debug" MinVersion="14.0.22929.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" />
   </Dependencies>
   <Resources>
     <Resource Language="EN-US" />
@@ -53,12 +53,12 @@
     <build:Item Name="cl.exe" Version="19.00.23026.0 built by: WCSETUP" />
     <build:Item Name="VisualStudio" Version="14.0" />
     <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015" />
-    <build:Item Name="OperatingSystem" Version="10.0.10534.0 (th2_release.150825-1700)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.23121.0" />
-    <build:Item Name="ProjectGUID" Value="{80ad453d-bc00-41bb-8b99-b9f8dd85f213}" />
+    <build:Item Name="OperatingSystem" Version="10.0.10550.1000 (th2_iot.150916-1712)" />
+    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.23311.4" />
+    <build:Item Name="ProjectGUID" Value="{683b61b1-d53c-4334-9b02-f042b1a9135f}" />
     <build:Item Name="OptimizingToolset" Value="None" />
     <build:Item Name="TargetRuntime" Value="Native" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.23121.0" />
+    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.23309.0" />
     <build:Item Name="WindowsDesktop" Version="10.0.10240.0" />
     <build:Item Name="MakePri.exe" Version="10.0.10240.16384 (th1.150709-1700)" />
   </build:Metadata>

@@ -12,7 +12,7 @@
     Publisher="CN=jessefr"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="b0fb8d19-b6a8-459c-8b3f-b5c9a0fe654f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="dc021608-5152-411a-9705-ceb038de62ef" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>MyServoProject</DisplayName>

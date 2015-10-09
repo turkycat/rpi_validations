@@ -12,7 +12,7 @@
     Publisher="CN=jessefr"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="7a131f32-d74f-45ab-b978-7cd46ea536c3" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="d884c181-e919-4432-bb41-8f09ea7c5a80" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>WeatherStation</DisplayName>

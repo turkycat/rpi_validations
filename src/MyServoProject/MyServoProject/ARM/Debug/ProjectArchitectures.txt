@@ -1,1 +1,1 @@
-C:\source\RPi_Validations\MyServoProject\MyServoProject\MyServoProject.vcxproj;arm
+C:\git\rpi_validations\src\MyServoProject\MyServoProject\MyServoProject.vcxproj;arm

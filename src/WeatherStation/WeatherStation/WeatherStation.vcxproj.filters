@@ -2,12 +2,15 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Package Dependencies">
-      <UniqueIdentifier>72397f6e-bdc3-49dd-9529-bfcbd9c2d5ad</UniqueIdentifier>
+      <UniqueIdentifier>1ee4f7bf-5567-4f10-abfb-28c966547993</UniqueIdentifier>
       <Extensions>pfx;appxmanifest;config</Extensions>
     </Filter>
     <Filter Include="Package Dependencies\Assets">
-      <UniqueIdentifier>0a89b066-84d7-4762-af27-0b5693302bc2</UniqueIdentifier>
+      <UniqueIdentifier>796aee69-edae-4799-94a7-f72cb77a61fd</UniqueIdentifier>
       <Extensions>png</Extensions>
+    </Filter>
+    <Filter Include="Package Dependencies\Include">
+      <UniqueIdentifier>fe7e37e6-4efa-464d-a527-293ee402111b</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -15,8 +18,14 @@
       <Filter>Package Dependencies</Filter>
     </ClCompile>
     <ClCompile Include="WeatherStation.ino" />
-    <ClCompile Include="SparkFunHTU21D.cpp" />
-    <ClCompile Include="SparkFunMPL3115A2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Package Dependencies\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="PinNumbers.h">
+      <Filter>Package Dependencies\Include</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png">
@@ -53,9 +62,5 @@
     <None Include="WeatherStation_TemporaryKey.pfx">
       <Filter>Package Dependencies</Filter>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="SparkFunHTU21D.h" />
-    <ClInclude Include="SparkFunMPL3115A2.h" />
   </ItemGroup>
 </Project>

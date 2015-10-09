@@ -3,60 +3,60 @@
 Servo myservo;  // create servo object to control a servo
 
 int delayAmount = 2000; // used for spacing out calls
-int pin = 29; // the pin that the Servo is on
+int pin = GPIO_5; // the pin that the Servo is on
 
-//void setup()
-//{
-//    myservo.attach( pin );  // attaches the servo on pin to the servo object
-//}
-//
-//void loop()
-//{
-//    if( !myservo.attached() )
-//    {
-//        Log( "Servo is not attached\n" );
-//        Log( "Servo is attaching\n" );
-//        myservo.attach( pin );
-//        if( myservo.attached() )
-//        {
-//            Log( "Servo is attached\n" );
-//        }
-//    }
-//    else
-//    {
-//        Log( "Servo is attached\n" );
-//    }
-//
-//    myservo.write( 0 ); // tells the servo to go to angle 0
-//    Log( "ServoIndex: %d\n", myservo.read() );
-//    Log( "ServoIndex in Microseconds: %d\n", myservo.readMicroseconds() );
-//    delay( delayAmount );
-//    myservo.write( 180 ); // tells the servo to go to angle 180
-//    Log( "ServoIndex: %d\n", myservo.read() );
-//    Log( "ServoIndex in Microseconds: %d\n", myservo.readMicroseconds() );
-//    delay( delayAmount );
-//
-//    if( myservo.attached() )
-//    {
-//        Log( "Servo is attached\n" );
-//        Log( "Servo is detaching\n" );
-//        myservo.detach();
-//        if( !myservo.attached() )
-//        {
-//            Log( "Servo is detached\n" );
-//        }
-//    }
-//    else
-//    {
-//        Log( "Servo is not attached\n" );
-//    }
-//}
+              //void setup()
+              //{
+              //    myservo.attach( pin );  // attaches the servo on pin to the servo object
+              //}
+              //
+              //void loop()
+              //{
+              //    if( !myservo.attached() )
+              //    {
+              //        Log( "Servo is not attached\n" );
+              //        Log( "Servo is attaching\n" );
+              //        myservo.attach( pin );
+              //        if( myservo.attached() )
+              //        {
+              //            Log( "Servo is attached\n" );
+              //        }
+              //    }
+              //    else
+              //    {
+              //        Log( "Servo is attached\n" );
+              //    }
+              //
+              //    myservo.write( 0 ); // tells the servo to go to angle 0
+              //    Log( "ServoIndex: %d\n", myservo.read() );
+              //    Log( "ServoIndex in Microseconds: %d\n", myservo.readMicroseconds() );
+              //    delay( delayAmount );
+              //    myservo.write( 180 ); // tells the servo to go to angle 180
+              //    Log( "ServoIndex: %d\n", myservo.read() );
+              //    Log( "ServoIndex in Microseconds: %d\n", myservo.readMicroseconds() );
+              //    delay( delayAmount );
+              //
+              //    if( myservo.attached() )
+              //    {
+              //        Log( "Servo is attached\n" );
+              //        Log( "Servo is detaching\n" );
+              //        myservo.detach();
+              //        if( !myservo.attached() )
+              //        {
+              //            Log( "Servo is detached\n" );
+              //        }
+              //    }
+              //    else
+              //    {
+              //        Log( "Servo is not attached\n" );
+              //    }
+              //}
 
 int pos = 0;    // variable to store the servo position 
 
 void setup()
 {
-    myservo.attach( pin );  // attaches the servo on pin 9 to the servo object 
+    myservo.attach( pin );  // attaches the servo on GPIO pin 5 to the servo object 
 }
 
 void loop()
