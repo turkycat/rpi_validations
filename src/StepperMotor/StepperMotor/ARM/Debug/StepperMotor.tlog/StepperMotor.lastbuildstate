@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+Debug|ARM|C:\Users\apdutta\Documents\rpi_validations\src\StepperMotor\|
