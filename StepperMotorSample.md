@@ -8,11 +8,12 @@ lang: en-US
 Learn how to create a simple app that controls a stepper motor. The app runs the motor in default forward mode, default reverse mode and small-step forward mode in a loop.
 
 # Required Components
-* [Sparkfun Stepper Motor - 68 oz.in](https://www.sparkfun.com/products/10846){:target="_blank"}
-* [Sparkfun Big Easy Driver](https://www.sparkfun.com/products/12859){:target="_blank"}
+* [Sparkfun Stepper Motor - 68 oz.in](https://www.sparkfun.com/products/10846)
+* [Sparkfun Big Easy Driver](https://www.sparkfun.com/products/12859)
 
 # Hooking up Components
 Build the circuit as shown in the Fritzing diagram below:
+TODO - Fritzing Schematic
 
 # Code
 ```
