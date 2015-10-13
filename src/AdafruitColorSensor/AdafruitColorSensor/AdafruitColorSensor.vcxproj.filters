@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Package Dependencies">
+      <UniqueIdentifier>5ae94bec-607c-42ed-bda6-859e7fb12db1</UniqueIdentifier>
+      <Extensions>pfx;appxmanifest;config</Extensions>
+    </Filter>
+    <Filter Include="Package Dependencies\Assets">
+      <UniqueIdentifier>21b3333f-954d-4eaf-bd21-0a22f369be35</UniqueIdentifier>
+      <Extensions>png</Extensions>
+    </Filter>
+    <Filter Include="Package Dependencies\Include">
+      <UniqueIdentifier>0d5f3d6b-128a-4e9c-bbb3-decc4c8cf326</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StartupTask.cpp">
+      <Filter>Package Dependencies</Filter>
+    </ClCompile>
+    <ClCompile Include="AdafruitColorSensor.ino" />
+    <ClCompile Include="Adafruit_TCS34725.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Package Dependencies\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="PinNumbers.h">
+      <Filter>Package Dependencies\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="Adafruit_TCS34725.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Package Dependencies\Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>Package Dependencies</Filter>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <Filter>Package Dependencies</Filter>
+    </None>
+    <None Include="AdafruitColorSensor_TemporaryKey.pfx">
+      <Filter>Package Dependencies</Filter>
+    </None>
+  </ItemGroup>
+</Project>
