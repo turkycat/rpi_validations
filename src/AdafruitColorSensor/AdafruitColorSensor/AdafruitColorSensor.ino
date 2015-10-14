@@ -3,9 +3,9 @@
 
 // Pick analog outputs, for the UNO these three work well
 // use ~560  ohm resistor between Red & Blue, ~1K for green (its brighter)
-#define redpin 3
-#define greenpin 5
-#define bluepin 6
+//#define redpin 3
+//#define greenpin 5
+//#define bluepin 6
 // for a common anode LED, connect the common pin to +5V
 // for common cathode, connect the common to ground
 
@@ -19,20 +19,20 @@ byte gammatable[256];
 Adafruit_TCS34725 tcs = Adafruit_TCS34725( TCS34725_INTEGRATIONTIME_50MS, TCS34725_GAIN_4X );
 
 void setup() {
-    Log(  "Color View Test!"  ); Log( "\n" );
+    Log( "Color View Test!" ); Log( "\n" );
 
     if( tcs.begin() ) {
-        Log(  "Found sensor"  ); Log( "\n" );
+        Log( "Found sensor" ); Log( "\n" );
     }
     else {
-        Log(  "No TCS34725 found ... check your connections"  ); Log( "\n" );
+        Log( "No TCS34725 found ... check your connections" ); Log( "\n" );
         while( 1 ); // halt!
     }
 
     // use these three pins to drive an LED
-    pinMode( redpin, OUTPUT );
-    pinMode( greenpin, OUTPUT );
-    pinMode( bluepin, OUTPUT );
+    //pinMode( redpin, OUTPUT );
+    //pinMode( greenpin, OUTPUT );
+    //pinMode( bluepin, OUTPUT );
 
     // thanks PhilB for this gamma table!
     // it helps convert RGB colors to what humans see
@@ -82,8 +82,8 @@ void loop() {
 
     //Log((int)r ); Log(" "); Log((int)g);Log(" ");  Log( (int)b  ); Log( "\\n" );
 
-    analogWrite( redpin, gammatable[(int)r] );
-    analogWrite( greenpin, gammatable[(int)g] );
-    analogWrite( bluepin, gammatable[(int)b] );
+    //analogWrite( redpin, gammatable[(int)r] );
+    //analogWrite( greenpin, gammatable[(int)g] );
+    //analogWrite( bluepin, gammatable[(int)b] );
 }
 

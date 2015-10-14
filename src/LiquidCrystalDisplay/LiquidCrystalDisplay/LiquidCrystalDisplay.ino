@@ -52,7 +52,7 @@ int dataPin14 = GPIO_5;
 LiquidCrystal *lcd;// ( registerSelectPin, enablePin, dataPin11, dataPin12, dataPin13, dataPin14 );
 
 void setup() {
-    //lcd = new LiquidCrystal( registerSelectPin, enablePin, dataPin11, dataPin12, dataPin13, dataPin14 );
+    lcd = new LiquidCrystal( registerSelectPin, enablePin, dataPin11, dataPin12, dataPin13, dataPin14 );
     // set up the LCD's number of columns and rows:
     lcd->begin( 16, 2 );
     // Print a message to the LCD.
