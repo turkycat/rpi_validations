@@ -2,15 +2,15 @@
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Package Dependencies">
-      <UniqueIdentifier>5ae94bec-607c-42ed-bda6-859e7fb12db1</UniqueIdentifier>
+      <UniqueIdentifier>f72ba3ba-8b31-465f-af8b-9dcaf162dcb5</UniqueIdentifier>
       <Extensions>pfx;appxmanifest;config</Extensions>
     </Filter>
     <Filter Include="Package Dependencies\Assets">
-      <UniqueIdentifier>21b3333f-954d-4eaf-bd21-0a22f369be35</UniqueIdentifier>
+      <UniqueIdentifier>25ae51af-b8df-4efa-a807-fd719c758784</UniqueIdentifier>
       <Extensions>png</Extensions>
     </Filter>
     <Filter Include="Package Dependencies\Include">
-      <UniqueIdentifier>0d5f3d6b-128a-4e9c-bbb3-decc4c8cf326</UniqueIdentifier>
+      <UniqueIdentifier>e42b705c-a6b0-4ef6-994f-3ceae991070f</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{cc099d93-be46-4af7-b736-6ac252cde870}</ProjectGuid>
+    <ProjectGuid>{99ceda1c-0bbb-47fb-bd3b-421334e9b82c}</ProjectGuid>
     <RootNamespace>AdafruitColorSensor</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
     <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>

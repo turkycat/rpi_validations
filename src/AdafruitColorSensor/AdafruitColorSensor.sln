@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdafruitColorSensor", "AdafruitColorSensor\AdafruitColorSensor.vcxproj", "{CC099D93-BE46-4AF7-B736-6AC252CDE870}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AdafruitColorSensor", "AdafruitColorSensor\AdafruitColorSensor.vcxproj", "{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,24 +15,24 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Debug|ARM.ActiveCfg = Debug|ARM
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Debug|ARM.Build.0 = Debug|ARM
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Debug|ARM.Deploy.0 = Debug|ARM
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Debug|x64.ActiveCfg = Debug|x64
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Debug|x64.Build.0 = Debug|x64
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Debug|x64.Deploy.0 = Debug|x64
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Debug|x86.ActiveCfg = Debug|Win32
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Debug|x86.Build.0 = Debug|Win32
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Debug|x86.Deploy.0 = Debug|Win32
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Release|ARM.ActiveCfg = Release|ARM
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Release|ARM.Build.0 = Release|ARM
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Release|ARM.Deploy.0 = Release|ARM
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Release|x64.ActiveCfg = Release|x64
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Release|x64.Build.0 = Release|x64
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Release|x64.Deploy.0 = Release|x64
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Release|x86.ActiveCfg = Release|Win32
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Release|x86.Build.0 = Release|Win32
-		{CC099D93-BE46-4AF7-B736-6AC252CDE870}.Release|x86.Deploy.0 = Release|Win32
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Debug|ARM.Build.0 = Debug|ARM
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Debug|ARM.Deploy.0 = Debug|ARM
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Debug|x64.ActiveCfg = Debug|x64
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Debug|x64.Build.0 = Debug|x64
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Debug|x64.Deploy.0 = Debug|x64
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Debug|x86.ActiveCfg = Debug|Win32
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Debug|x86.Build.0 = Debug|Win32
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Debug|x86.Deploy.0 = Debug|Win32
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Release|ARM.ActiveCfg = Release|ARM
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Release|ARM.Build.0 = Release|ARM
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Release|ARM.Deploy.0 = Release|ARM
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Release|x64.ActiveCfg = Release|x64
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Release|x64.Build.0 = Release|x64
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Release|x64.Deploy.0 = Release|x64
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Release|x86.ActiveCfg = Release|Win32
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Release|x86.Build.0 = Release|Win32
+		{99CEDA1C-0BBB-47FB-BD3B-421334E9B82C}.Release|x86.Deploy.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
