@@ -1,11 +1,11 @@
 #include <LiquidCrystal.h>
 
-int enablePin = GPIO_26;
+int enablePin = GPIO_16;
 int registerSelectPin = GPIO_20;
 int dataPin11 = GPIO_2;
 int dataPin12 = GPIO_3;
 int dataPin13 = GPIO_4;
-int dataPin14 = GPIO_5;
+int dataPin14 = GPIO_17;
 
 //create a pointer to an instance of LiquidCrystal, yet to be created
 LiquidCrystal *lcd;

@@ -12,7 +12,7 @@
     Publisher="CN=jessefr"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="a9d8bcc7-aad4-4d1e-935f-91f37fa30b3a" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="07abc46f-07f1-464b-a610-6a05c8a4a742" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>LiquidCrystalDisplay</DisplayName>
