@@ -18,8 +18,8 @@ Learn how to create a simple app that controls a stepper motor. The app runs the
    3. Connect the STEP pin on the driver to pin 10 (GPIO 15) on the Pi.
    4. Connect the DIR pin on the driver to pin 8 (GPIO 14) on the Pi.
    5. Finally, connect the GND pin on the driver to pin 39 on the Pi.
-2. Next connect the motor to the driver. The Black and Green cables connect to the pins marked 'A' on the driver and the Red and Blue cables connect to the pins marked 'B' on the driver.
-3. Hook up a 12V/2A power source to the driver by connecting the positive lead to the pin marked M+ and the negative lead to the pin marked GND.
+2. Next connect the motor to the driver. The Black and Green cables of the motor connect to the pins marked 'A' on the driver and the Red and Blue cables on the motor connect to the pins marked 'B' on the driver.
+3. Hook up a 12V/2A power source to the driver by connecting the positive lead of the power source to the pin marked M+ on the driver and the negative lead to the pin marked GND.
 
 # Code
 ```
